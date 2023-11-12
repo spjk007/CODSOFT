@@ -92,7 +92,7 @@ if __name__ == "__main__":
 	# when user press the button, the command or 
 	# function affiliated to that button is executed . 
 	button1 = Button(gui, text=' 1 ', fg='black', bg='red', 
-					command=lambda: press(1), height=1, width=7) 
+					command=press(1), height=1, width=7) 
 	button1.grid(row=2, column=0) 
 
 	button2 = Button(gui, text=' 2 ', fg='black', bg='red', 
