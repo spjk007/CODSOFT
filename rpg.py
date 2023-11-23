@@ -33,7 +33,7 @@ def generate():
 if __name__ == "__main__":
     rpg = Tk()
     rpg.title("Password Generator")
-    rpg.geometry("400x150")
+    rpg.geometry("420x150")
     my_font = Font(family="Times New Roman", size=15, weight="bold")
     variable = IntVar()
     variable1 = IntVar()
