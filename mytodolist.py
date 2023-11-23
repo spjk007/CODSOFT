@@ -65,8 +65,9 @@ def open_list():
         stuff = pickle.load(input_file)
         input_file.close()
         listofitems.delete(0, END)
-        for i, item in enumerate(stuff, start=1):
-            listofitems.insert(END, f"{i}. {item}")
+        for item in stuff:
+            listofitems.insert(END, item)
+
 
 def delete_list():
     listofitems.delete(0, END)
